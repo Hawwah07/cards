@@ -1,0 +1,42 @@
+.container {
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    line-height: 20px;
+ 
+}
+.button {
+    border-radius: 30px;
+    border: 0.5px solid black;
+    padding: 15px 60px;
+    background-color: white;
+}
+.lists {
+    text-decoration: none;
+}
+#more {
+    display: none;
+}
+#myBtn {
+    border: 0px, none black;
+    color: #333333;
+}
+.lists-two {
+    color: gray;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.line {
+    border-bottom: 2px dotted rgb(51, 51, 51);
+}
+h6 {
+    color: #333333;
+}
+svg {
+    text-align: center;
+}

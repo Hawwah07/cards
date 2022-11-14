@@ -1,116 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Cards</title>
-    <style>
-        .container {
-            border: 0.5px solid gray;
-            border-radius: 10px;
-            width: 300px;
-            height: 100%;
-            margin: auto;
-            padding: 20px;
-            line-height: 20px;
-         
-        }
-        .button {
-            border-radius: 30px;
-            border: 0.5px solid black;
-            padding: 15px 60px;
-            background-color: white;
-        }
-        .lists {
-            text-decoration: none;
-        }
-        #more {
-            display: none;
-        }
-        #myBtn {
-            border: 0px, none black;
-            color: #333333;
-        }
-        .lists-two {
-            color: gray;
-        }
-        ul {
-            list-style: none;
-            padding-left: 0px;
-        }
-        .line {
-            border-bottom: 2px dotted rgb(51, 51, 51);
-        }
-        h6 {
-            color: #333333;
-        }
-    </style>
-</head>
-<body>
+    <style></style>
+  </head>
+  <body>
     <div class="container">
-        <h3>Free</h3>
-        <p>For individuals or very small teams just getting started with Airtable</p>
-        <h1>Free</h1>
-        <div class="btn">
-            <button type="button" class="button">
-                Sign up
-            </button>
-        </div>
-        <ul>
-            <h4 class="lists">Free includes:</h4>
-            <li>Unlimited bases</li>
-            <li>Up to 5 creators or editors</li>
-            <li>Unlimited commenter and read-only users</li>
-            <li><span class="line">Interface Designer</span></li>
-            <li>1 <span class="line">extension</span> per base</li>
-            <li>1 sync integration</li>
-            <li>1,200 records per base</li>
-            <li>2GB of attachments per base</li>
-            <span id="dots"></span>
-        </ul>
-        
-        <div id="list-container">
-        <span id="more">
-        <ul>
-            <h6 class="lists-two">FUNDAMENTALS</h6>
-            <li>Unlimited bases</li>
-            <li>5 maximum number of users</li>
-            <li>1,200 records per base</li>
-            <li>1,200 records per table</li>
-            <li>2GB attachment space per base</li>
-            <li>2-week revision and snapshot history</li>
-            <li>Rich field types including attachments, checkboxes, dropdowns, and more</li>
-            <li>Web, desktop, iOS, and Android apps</li>
-            <li>Realtime collaboration and commenting</li>
-        </ul>
-        <ul>
-            <h5  class="lists-two">INTERFACE DESIGNER </h5>
-            <li>streamlined ways to access airtable</li>    
-        </ul>
-        <ul>
-            <h5  class="lists-two">EXTENSIONS </h5>
-            <li>1 per base</li>    
-        </ul>
-        <ul>
-            <h5 class="lists-two">AUTOMATIONS</h5>
-            <li>100 runs per month</li>    
-            <li>2-week run history</li>    
-            <li>Automation integrations</li>    
-        </ul>
-        <ul>
-            <h5 class="lists-two">SUPPORT</h5>
-            <li>On-demand webinars</li>    
-            <li>Self-serve knowledge base</li>    
-            <li>Email support</li>    
-        </ul>
-        </span>
+      <h3>Free</h3>
+      <p>
+        For individuals or very small teams just getting started with Airtable
+      </p>
+      <h1>Free</h1>
+      <div class="btn">
+        <button type="button" class="button">Sign up</button>
+      </div>
+      <ul>
+        <h4 class="lists">Free includes:</h4>
+        <li>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 16 16"
+            class="icon"
+            style="shape-rendering: geometricprecision"
+          >
+            <path
+              fill-rule="evenodd"
+              fill="currentColor"
+              d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+            ></path>
+          </svg>
+          Unlimited bases
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          >Up to 5 creators or editors
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          >Unlimited commenter and read-only users
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          ><span class="line">Interface Designer</span>
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          >1 <span class="line">extension</span> per base
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          >1 sync integration
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          >1,200 records per base
+        </li>
+        <li>
+          <span
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              class="icon"
+              style="shape-rendering: geometricprecision"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="currentColor"
+                d="M5.944 12.305a1.031 1.031 0 0 0 1.433-.009l5.272-5.181A1.483 1.483 0 0 0 12.661 5a1.468 1.468 0 0 0-2.109.025L7.008 8.701a.465.465 0 0 1-.685-.01l-.587-.641A1.42 1.42 0 0 0 3.661 8a1.473 1.473 0 0 0 .017 2.106l2.266 2.199z"
+              ></path></svg></span
+          >2GB of attachments per base
+        </li>
+      </ul>
+
+      <h6>
+        ALL FEATURES
+        <svg
+          width="12"
+          height="12"
+          viewBox="0 0 12 12"
+          class="ml-half"
+          style="shape-rendering: geometricprecision"
+        >
+          <path
+            fill-rule="evenodd"
+            fill="currentColor"
+            d="M3.6011,4.00002 L8.4011,4.00002 C8.8951,4.00002 9.1771,4.56402 8.8811,4.96002 L6.4811,8.16002 C6.2411,8.48002 5.7611,8.48002 5.5211,8.16002 L3.1211,4.96002 C2.8241,4.56402 3.1071,4.00002 3.6011,4.00002"
+          ></path>
+        </svg>
+      </h6>
     </div>
-        <h6 
-       
-        >ALL FEATURES
-            </h6>
-    </div>
-   
-</body>
+  </body>
 </html>
